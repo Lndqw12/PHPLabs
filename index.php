@@ -37,6 +37,16 @@
         echo "=".$$abc;
         echo "<br />";
         echo PHP_VERSION;
+        echo "<br />";
+        echo PHP_OS;
+        define("const_line","line");
+        echo const_line;
+//        array
+        echo "<br />";
+        $exam_array = array('a'=>'1','b'=> '2','c'=>3);
+        print_r($exam_array);
+        echo "<br />";
+        var_dump($exam_array);
         ?>
 <p>Test</p>
 
