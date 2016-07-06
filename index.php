@@ -27,6 +27,16 @@
         unset($i);
         if (isset($i)) echo "Существует"."</br>";
         else echo "Не существует"."</br>";
+        print "nobody";
+        $slot = 123;
+        $abc ="slot";
+        echo "<br />";
+        echo $abc;
+        echo "<br />";
+        /** @var TYPE_NAME $abc */
+        echo "=".$$abc;
+        echo "<br />";
+        echo PHP_VERSION;
         ?>
 <p>Test</p>
 
