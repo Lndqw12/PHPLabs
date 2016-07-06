@@ -47,7 +47,21 @@
         print_r($exam_array);
         echo "<br />";
         var_dump($exam_array);
+        echo "<br />";
+        var_export($exam_array);
         ?>
+        <p>Дальше еще интересней</p><br />
+            <?php echo $exam_array;
+            print_r($exam_array);
+            echo "<br />";
+            var_dump($exam_array);
+            echo "<br />";
+            var_export($exam_array);
+            ?>
+
+        <?php $a = 5; if ($a == 5): ?>
+            A равно 5
+        <?php endif; ?>
 <p>Test</p>
 
 </body>
