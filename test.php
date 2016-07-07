@@ -1,10 +1,12 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 07.07.2016
- * Time: 8:37
- */
+<!-- This is TEST page-->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        php
+    </title>
+</head>
+<body>
 
 <?php
         echo "Hello, World";
@@ -59,5 +61,34 @@ var_export($exam_array);
 
 <?php $a = 5; if ($a == 5): ?>
     A равно 5
-<?php endif; ?>
+<?php endif; ?><br>
+Your browser <?=$_SERVER['HTTP_USER_AGENT'];?><br>
+Your IP-adress <?=$_SERVER['REMOTE_ADDR'];?><br>
 <p>Test</p>
+<?php
+$f[] = 20;
+$f[] = 30;
+$f[] = 40;
+$f[] = 50;
+echo $f;
+echo "<br />";
+$sum=0;
+for($l=0;$l<=4; $l++)
+{
+   echo $f[$l]."<br>";
+    $sum += $f[$l];
+}
+echo "<br />";
+echo $sum;
+?>
+<form action="alt.php">
+Первое поле<input type="text" name=Arr[]/> 
+Второе поле<input type="text" name=Arr[]/>
+Еще одно поле <textarea name=Arr[] id="" cols="30" rows="10"></textarea>
+    <input type="submit" value="Enter"/>
+</form>
+<?php
+ print_r($GLOBALS);
+?>
+</body>
+</html>
