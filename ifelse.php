@@ -8,4 +8,18 @@
     <input type="submit" value="GO" name="btn"/>
 </form>
 <?endif?>
+<?php
+   $val1 = 20;
+    $port = 23;
+    while ($val1<$port): {
+        echo "itr<br />";
+        $port--;
+    }
+    endwhile;
+?>
+<?php
+for($i=0, $j=0, $k="Points";$i<100;$j++,$i+=$j)
+    $k=$k."$i"." ";
+echo $k;
+?>
 
