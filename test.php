@@ -88,7 +88,8 @@ echo $sum;
     <input type="submit" value="Enter"/>
 </form>
 <?php
- print_r($GLOBALS);
+ print_r($_SERVER['SCRIPT_NAME']);
+
 ?>
 </body>
 </html>
