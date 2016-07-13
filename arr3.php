@@ -24,4 +24,7 @@
 echo "---------------------------------------<br>";
 for(end($bird);($ggg = key($bird));prev($bird))
     echo "$ggg === {$bird[$ggg]}<br>";
+echo "---------------------------------------<br>";
+foreach($bird as $h=>$m)
+    echo  "$h ==>>> $m<br>";
 ?>
