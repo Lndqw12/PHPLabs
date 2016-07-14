@@ -24,7 +24,7 @@ echo "<br/>";
 echo $comment;
 echo "<br/>";
     echo "------------after list \"\"----------<br>";
-    echo "$id";
+    print "$id";
     echo "<br/>";
     echo "$name";
     echo "<br/>";
@@ -32,6 +32,12 @@ echo "<br/>";
     echo "<br/>";
     echo "$comment";
     echo "<br/>";
-
+//теперь склеивание
+    $glue = "000";
+$g = array($id, $name, $burn,$comment);
+   $newstring = join($glue, $g);
+echo "<br/>";
+ echo $newstring;
+echo "<br/>";
 
 ?>
