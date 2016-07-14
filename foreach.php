@@ -11,4 +11,10 @@ foreach(array(101,203,34) as $magic)
 echo"----------------<br>";
     for($h=0;$h<count($garr);$h++)
         echo "$garr[$h]<br>";
+echo"----------------<br>";
+foreach($garr as $lol){
+    $lol++;
+    echo "$lol<br>";
+}
+echo"----------------<br>";
 ?>
