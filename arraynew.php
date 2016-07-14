@@ -23,9 +23,9 @@ print sum(2);
 print sum(2,8);
 
 function sd($y){
-     return $y++;
+     $y++;
     echo $y;
 }
-
-print (sd(10));
+$fg = 10;
+print (sd($fg));
 ?>
