@@ -1,9 +1,7 @@
 <meta charset="UTF-8">
 <?php
-function selfcount(){
-    static $count = 0;
-    for($i=0;$i<10;$i++)
-        echo $count++."<br/>";
-}
-selfcount();
+$myarry = array(23,'34',56,78,'89');
+print_r($myarry);
+echo "<br/>";
+var_dump($myarry);
 ?>
