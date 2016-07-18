@@ -29,4 +29,16 @@ function localVar(){
 }
 echo "$f";
 echo localVar();
+for($e=0;$e<20;$e++)
+    echo "--";
+echo "<br/>";
+//$GLOBALS - использование глобального массива номерайия с 1 !!!
+function globFunArray(){
+    return $GLOBALS["f"]; // нужно обратить внимание что имя переменной баз $  и в кавычках
+
+}
+
+echo "Последний<br/>";
+echo globFunArray();
+
 ?>
