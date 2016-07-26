@@ -1,4 +1,4 @@
-<meta charset="UTF-8">
+<!--<meta charset="UTF-8">-->
 <?php
   for($i=0,$x=0;$x<16;$x++){
       for($y=0;$y<16;$y++){
