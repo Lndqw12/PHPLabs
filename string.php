@@ -27,4 +27,9 @@ else
 {
     echo "no";
 }
+echo str_repeat("-",20);
+echo str_repeat("<br/>",1);
+$str = "asdklfhaksjf<?";
+if (strpos($str,"<?")!== false)
+echo "PHP programm";
 ?>
