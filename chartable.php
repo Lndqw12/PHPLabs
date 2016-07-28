@@ -49,4 +49,16 @@ switch ($var) {
         break;
 }
 }
+// end function cami
+echo "<br/>"."----------------------------------------------";
+$strmine = "123asd456789";
+//$slocal = "asd";
+$restotal = substr($strmine,7);
+print $restotal;
+echo "<br/>";
+//print_t $restotal;
+echo "<br/>";
+echo $restotal;
+echo "<br/>";
+echo "$restotal";
 ?>
