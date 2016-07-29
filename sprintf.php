@@ -29,4 +29,15 @@ $br = "<br />\n";
 $reulstr = wordwrap($strone,$wint,$br );
 echo $reulstr;
 
+// still one expample
+// function strip_tags
+
+$strtag = "
+<b>Ведутся технические работы</b>
+";
+echo "<br/>";
+echo $strtag;
+$deltag = strip_tags($strtag);
+echo "<br/>"."$deltag";
+
 ?>
