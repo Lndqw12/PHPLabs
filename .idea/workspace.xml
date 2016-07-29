@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a9f8bb-9d38-440d-9d88-603c3a4f46fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/usort.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/slice.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usort.php" afterPath="$PROJECT_DIR$/usort.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phplabs.iws" />
@@ -38,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="usort.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/usort.php">
+      <file leaf-file-name="slice.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/slice.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="582">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.4742268" vertical-offset="234" max-vertical-offset="850">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -130,6 +131,7 @@
         <option value="$PROJECT_DIR$/fcamp.php" />
         <option value="$PROJECT_DIR$/arraysortand.php" />
         <option value="$PROJECT_DIR$/usort.php" />
+        <option value="$PROJECT_DIR$/slice.php" />
       </list>
     </option>
   </component>
@@ -304,14 +306,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/reg.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="527">
@@ -665,6 +659,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/usort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49656358" vertical-offset="0" max-vertical-offset="582">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="374">
@@ -673,10 +675,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/usort.php">
+    <entry file="file://$PROJECT_DIR$/slice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="582">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.4742268" vertical-offset="234" max-vertical-offset="850">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="14" />
           <folding />
         </state>
       </provider>
