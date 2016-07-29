@@ -18,7 +18,14 @@ echo "<br/>";
 while (false !== ($e=readdir($d)))
     $files[$e] = filesize($e);
 uksort($files,"FCamp");
+echo "<pre>";
 print_r($files);
+echo "<br/>";
+echo "<br/>";
+// revers
+$resarry = array_reverse($files);
+echo "<pre>";
+print_r($resarry);
 
 
 ?>
