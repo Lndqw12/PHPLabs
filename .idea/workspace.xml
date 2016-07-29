@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a9f8bb-9d38-440d-9d88-603c3a4f46fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/arraysort.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phplabs.iws" />
@@ -31,33 +31,18 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
+            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="374">
               <caret line="3" column="21" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sprintf.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sprintf.php">
+      <file leaf-file-name="arraysort.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/arraysort.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.5" vertical-offset="251" max-vertical-offset="833">
-              <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
-              <folding>
-                <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
-                <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
-                <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
-                <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crypto.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/crypto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7302405" vertical-offset="0" max-vertical-offset="582">
-              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.46735394" vertical-offset="0" max-vertical-offset="582">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -141,6 +126,7 @@
         <option value="D:/3JavaScriptObject/beta.js" />
         <option value="$PROJECT_DIR$/sprintf.php" />
         <option value="$PROJECT_DIR$/crypto.php" />
+        <option value="$PROJECT_DIR$/arraysort.php" />
       </list>
     </option>
   </component>
@@ -315,13 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1700">
-          <caret line="90" column="1" selection-start-line="90" selection-start-column="1" selection-end-line="90" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forechi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
@@ -619,14 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="374">
-          <caret line="3" column="21" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/charreplace.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="323">
@@ -672,10 +643,10 @@
         <state vertical-scroll-proportion="-16.5" vertical-offset="251" max-vertical-offset="833">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
-            <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
-            <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
-            <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
-            <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
+            <marker date="1469767998373" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1469767998373" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1469767998373" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1469767998373" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -684,6 +655,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7302405" vertical-offset="0" max-vertical-offset="582">
           <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="374">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arraysort.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46735394" vertical-offset="0" max-vertical-offset="582">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
