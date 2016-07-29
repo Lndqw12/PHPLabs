@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40a9f8bb-9d38-440d-9d88-603c3a4f46fc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sprintf.php" afterPath="$PROJECT_DIR$/sprintf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/crypto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phplabs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,10 +38,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sprintf.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="sprintf.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sprintf.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7371134" vertical-offset="251" max-vertical-offset="833">
+            <state vertical-scroll-proportion="-16.5" vertical-offset="251" max-vertical-offset="833">
               <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding>
                 <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
@@ -48,6 +49,16 @@
                 <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
                 <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crypto.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crypto.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7302405" vertical-offset="0" max-vertical-offset="582">
+              <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -129,6 +140,7 @@
         <option value="D:/3JavaScriptObject/index.html" />
         <option value="D:/3JavaScriptObject/beta.js" />
         <option value="$PROJECT_DIR$/sprintf.php" />
+        <option value="$PROJECT_DIR$/crypto.php" />
       </list>
     </option>
   </component>
@@ -303,13 +315,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="170">
-          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1700">
@@ -664,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sprintf.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7371134" vertical-offset="251" max-vertical-offset="833">
+        <state vertical-scroll-proportion="-16.5" vertical-offset="251" max-vertical-offset="833">
           <caret line="40" column="14" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
           <folding>
             <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
@@ -672,6 +677,14 @@
             <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
             <marker date="1469767998373" expanded="true" signature="687:721" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7302405" vertical-offset="0" max-vertical-offset="582">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
