@@ -18,4 +18,15 @@ asdasdasd
 sgsdgsdfgsdfg";
 
 echo nl2br($example_txt);
+echo "<br/>";
+// This is still one basic function
+$strone = "textq iowefjqwefqw eiofwqef
+qwewe qweqwety 45g dffffffth 45545ssdf dfgdfg dytyeer rererre
+qeqwer 3434 565656
+asdf sdfg sdfgsd sdfgsd sdfgsd sdfg sdfgsdfgsd s sdfgsdgfdsfg";
+$wint = 30;
+$br = "<br />\n";
+$reulstr = wordwrap($strone,$wint,$br );
+echo $reulstr;
+
 ?>
