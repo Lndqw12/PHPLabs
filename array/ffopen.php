@@ -10,16 +10,20 @@ $fstyl = "rt";
 $f = fopen($file,"rb") or die("Error1");
 
 echo "-------------------------------------<br/>";
-function mHex($input){
-    for($i=0;$i<strlen($input);$i++)
-        $hex[] = sprintf("%20X",ord($input[$i]));
-    return join(" ",$hex);
-}
-echo mHex(fgets($f,100));
+//function mHex($input){
+//    for($i=0;$i<strlen($input);$i++)
+//        $hex[] = sprintf("%20X",ord($input[$i]));
+//    return join(" ",$hex);
+//}
+//echo mHex(fgets($f,100));
 
 $result = fread($f,500);
 echo "<br />";
 echo $result;
-
+$fnew = fopen("txt2.php","w");
+//$result=$result;
+fwrite($fnew,$result);
+fclose($fnew);
 fclose($f);
+include 'txt2.php';
 ?>
