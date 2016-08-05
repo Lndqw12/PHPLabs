@@ -2,19 +2,13 @@
 <?php
 $ph = $_SERVER['DOCUMENT_ROOT'];
 echo "$ph";
-$file = "random.php";
+$file = "txt.php";
 echo "<br />";
 echo "$file";
 $fstyl = "rt";
 //$f = fopen($file,$fstyl) or die("Error");
-$f = fopen($file,"rt") or die("Error1");
-echo "<br />";
-echo is_array($f) ? 'Массив' : 'Не массив';
-echo "<br />";
-echo is_object($f) ? 'Объект' : 'Не объект';
-echo "<br />";
-echo is_string($f) ? 'Строка' : 'Не строка';
-echo "<br />";
+$f = fopen($file,"rb") or die("Error1");
+
 echo "-------------------------------------<br/>";
 function mHex($input){
     for($i=0;$i<strlen($input);$i++)
@@ -23,5 +17,9 @@ function mHex($input){
 }
 echo mHex(fgets($f,100));
 
+$result = fread($f,500);
+echo "<br />";
+echo $result;
 
+fclose($f);
 ?>
