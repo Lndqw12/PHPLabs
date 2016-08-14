@@ -1,0 +1,2 @@
+[12-Aug-2016 14:34:01 Europe/Moscow] PHP Fatal error:  Call to undefined function filetime() in C:\OpenServer\domains\phplabs\array\inter.php on line 18
+[12-Aug-2016 15:09:21 Europe/Moscow] PHP Fatal error:  Call to undefined function filetime() in C:\OpenServer\domains\phplabs\array\inter.php on line 18

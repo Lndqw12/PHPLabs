@@ -1,3 +1,4 @@
+<meta charset="UTF-8">
 <?php
 echo "<pre>";
 //echo phpinfo();
@@ -11,7 +12,9 @@ echo "</pre>";
 
 echo "----------------------------";
 echo "<br/>";
-
+//exit();
+//$mess = "Программа завершила работу";
+//die($mess);
 error_reporting(E_ALL);
 ini_set("error_log", "log.txt");
 ini_set("log-errors", true);
@@ -30,4 +33,8 @@ function outer ($x) {
 }
 
 outer(3);
+echo "----------------------------";
+echo "<br/>";
+
+for ($i=1; )
 ?>
