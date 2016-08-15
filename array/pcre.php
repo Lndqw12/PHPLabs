@@ -13,4 +13,27 @@ $html = preg_replace(
     $text
 );
 echo $html;
+$re = '/\\\\filename/';
+echo "<br/>";
+echo $re;
+echo "<br/>";
+echo "<tt>".htmlspecialchars($re)."</tt>";
+echo "<br/>";
+echo preg_replace('/at/','AT',"What is the Perl Compatible Regex?");
+echo "<br/>";
+$strdate = " 15-16/2000           ";
+$res = '{
+    ^\s*(
+    (\d+)
+        \s* [[:punct:]] \s*
+        (\d+)
+        \s* [[:punct:]] \s*
+          (\d+)
+          )\s*$
+}xs';
+preg_match($res,$strdate, $pock) or die ("Not a date: $strdate");
+echo "Дата без пробелов: '$pock[1]'<br>";
+echo "День:'$pock[2]'<br> ";
+echo "Месяц:'$pock[3]'<br> ";
+echo "Год:'$pock[4]'<br> ";
 ?>
