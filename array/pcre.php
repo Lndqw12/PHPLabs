@@ -36,4 +36,6 @@ echo "Дата без пробелов: '$pock[1]'<br>";
 echo "День:'$pock[2]'<br> ";
 echo "Месяц:'$pock[3]'<br> ";
 echo "Год:'$pock[4]'<br> ";
+echo "<br/>";
+
 ?>
